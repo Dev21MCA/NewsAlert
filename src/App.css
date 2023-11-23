@@ -1,6 +1,28 @@
 .App {
   text-align: center;
 }
+#wishlist-keyword{
+  
+  width: 10rem;
+  position: relative;
+  
+}
+#navbar-newsletter{
+  background: white;
+  position: absolute;
+  margin-right: 6rem;
+}
+#wishlist-button{
+  position: absolute;
+
+  margin-top: 0rem;
+  margin-left: 81rem;
+}
+#user-keyword-titles{
+  margin-top: 4rem;
+  position: relative;
+  margin-left: -7rem;
+}
 
 .App-logo {
   height: 40vmin;

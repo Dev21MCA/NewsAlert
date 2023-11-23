@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import WordWatchlist from "./WordWatchList";
+import '../App.css'
 export class NavBar extends Component {
   render() {
     return (
-      <div>
+      <div id="navbar-newsletter">
         <nav
-          className="navbar fixed-top bg-dark border-bottom border-bottom-dark"
-          data-bs-theme="dark"
+          className="navbar fixed-top bg-light border-bottom border-bottom-dark"
+          data-bs-theme="light"
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               NewsAlert
             </a>
             <form className="d-flex" role="search">
-              <input
+              {/* <input
                 className="form-control me-2"
                 type="search"
                 placeholder="Add word to watchlist..."
@@ -21,7 +22,7 @@ export class NavBar extends Component {
               />
               <button className="btn btn-outline-success" type="submit">
                 WatchList
-              </button>
+              </button> */}
             </form>
           </div>
         </nav>

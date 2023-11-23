@@ -1,7 +1,7 @@
 import './App.css';
 
 import React, { Component } from 'react'
-import NavBar from './Components/NavBar';
+// import NavBar from './Components/NavBar';
 import News from './Components/News';
 import LoadingBar from 'react-top-loading-bar';
 
@@ -20,7 +20,7 @@ export default class App extends Component {
         color='#f11946'
         progress={this.state.progress}
       />
-       <NavBar/>
+       {/* <NavBar/> */}
        
        <News setProgress={this.setProgress}/>
       </div>
